@@ -1,0 +1,34 @@
+{
+  "name": "meancart",
+  "version": "1.0.0",
+  "description": "Simple MEAN Stack APP",
+  "main": "rest_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nleite/meancart.git"
+  },
+  "dependencies":{
+    "mongoose": ">= 4.2",
+    "mongodb": ">= 2.0",
+    "express": ">= 4.0",
+    "body-parser": ">=1.14.1",
+    "http-status": ">=0.2.0",
+    "stripe": "<2.0.0"
+  },
+  "keywords": [
+    "demo",
+    "shopping",
+    "cart",
+    "mean",
+    "stack"
+  ],
+  "author": "nleite",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nleite/meancart/issues"
+  },
+  "homepage": "https://github.com/nleite/meancart"
+}

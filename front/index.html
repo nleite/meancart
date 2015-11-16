@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" ng-app="meancart" ng-controller="listController">
+<head>
+  <meta charset="utf-8">
+  <title>{{title}}</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/angular.min.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/ngAutocomplete.js"></script>
+</head>
+<body>
+
+  <div class="site-wrapper">
+    <div class="site-wrapper-inner">
+      <div class="cover-container">
+        <div class="masthead clear-fix">
+            <p>{{name}}</p>
+        </div>
+      </div>
+      <div class="inner cover">
+        <div class="container">
+        	<div class="row">
+                <div class="col-md-6">
+            		<h2>MEAN Find</h2>
+                    <div id="custom-search-input">
+                        <div class="input-group col-md-12">
+                            <input type="text" id="Autocomplete" class="form-control input-lg" ng-model="query"/>
+                        </div>
+                    </div>
+                </div>
+                <!--index.html-->
+                <div class="col-md-10">
+                  <div ng-include="'/templates/list.html'"></div>
+                </div>
+        	</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

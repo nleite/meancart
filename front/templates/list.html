@@ -1,0 +1,7 @@
+<!--list.html-->
+<br>
+<ul class="media-list">
+  <li ng-repeat="item in list|filter:query" class="media">
+    <div ng-include="'templates/item.html'"></div>
+  </li>
+</ul>
